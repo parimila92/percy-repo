@@ -1,5 +1,6 @@
 package com.LanguageFundamentals;
 public class employee {
+	
 	   static int emp_id=101;
 	   String emp_name;
 	   long mobileno;
@@ -52,7 +53,7 @@ public class employee {
 		 total_sal = (float)(base_sal + bonus);
 		  printing();
 	 }
-	 
+
      void printing()
 	 {
 		System.out.println(" id:" + emp_id);
